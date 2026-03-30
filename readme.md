@@ -23,7 +23,7 @@ the final submission should be a visualized dependency graph where i can see con
 ## get started
 
 1. go to https://platform.composio.dev and get an api key
-2. run `COMPOSIO_API_KEY=PUT_YOUR_KEY_HERE sh scaffold.sh` will give you an **openrouter-key** and create a local `.env`
+2. run `COMPOSIO_API_KEY=PUT_YOUR_KEY_HERE sh scaffold.sh` will give you an **openrouter-key** and create a local `.env` (copy from `.env.example` if needed; **never commit `.env`**)
 3. check `src/index.ts` to see how to fetch full google raw tools (fastest way to run is https://bun.sh/)
 
 you can implement this with whatever language you want, feel free to use language models and coding tools
