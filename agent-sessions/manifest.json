@@ -1,0 +1,11 @@
+{
+  "mode": "skipped",
+  "generatedAt": "2026-03-30T17:09:21.963Z",
+  "projectRoot": "/Users/test/Downloads/dep-graph",
+  "outputDir": "/Users/test/Downloads/dep-graph/agent-sessions",
+  "windowMinutes": 90,
+  "skipReason": "--skip-session",
+  "providers": {},
+  "artifacts": [],
+  "totalArtifacts": 0
+}

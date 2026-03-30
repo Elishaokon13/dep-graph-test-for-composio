@@ -1,0 +1,141 @@
+[
+  {
+    "toolkit": "googlesuper",
+    "rawCount": 431,
+    "normalizedCount": 431,
+    "sample": [
+      {
+        "name": "Delete ACL Rule",
+        "requiredParams": [
+          "calendar_id",
+          "rule_id"
+        ],
+        "paramKeys": [
+          "calendar_id",
+          "rule_id"
+        ]
+      },
+      {
+        "name": "Get ACL Rule",
+        "requiredParams": [
+          "calendar_id",
+          "rule_id"
+        ],
+        "paramKeys": [
+          "calendar_id",
+          "rule_id"
+        ]
+      },
+      {
+        "name": "Create ACL Rule",
+        "requiredParams": [
+          "calendar_id",
+          "role",
+          "scope"
+        ],
+        "paramKeys": [
+          "calendar_id",
+          "role",
+          "scope",
+          "send_notifications"
+        ]
+      },
+      {
+        "name": "List ACL Rules",
+        "requiredParams": [
+          "calendar_id"
+        ],
+        "paramKeys": [
+          "calendar_id",
+          "max_results",
+          "page_token",
+          "show_deleted",
+          "sync_token"
+        ]
+      },
+      {
+        "name": "Patch ACL Rule",
+        "requiredParams": [
+          "calendar_id",
+          "rule_id"
+        ],
+        "paramKeys": [
+          "calendar_id",
+          "role",
+          "rule_id",
+          "scope",
+          "send_notifications"
+        ]
+      }
+    ]
+  },
+  {
+    "toolkit": "github",
+    "rawCount": 867,
+    "normalizedCount": 867,
+    "sample": [
+      {
+        "name": "Abort Repository Migration",
+        "requiredParams": [
+          "migrationId"
+        ],
+        "paramKeys": [
+          "clientMutationId",
+          "migrationId"
+        ]
+      },
+      {
+        "name": "Accept a repository invitation",
+        "requiredParams": [
+          "invitation_id"
+        ],
+        "paramKeys": [
+          "invitation_id"
+        ]
+      },
+      {
+        "name": "Add app access restrictions",
+        "requiredParams": [
+          "owner",
+          "repo",
+          "branch",
+          "apps"
+        ],
+        "paramKeys": [
+          "apps",
+          "branch",
+          "owner",
+          "repo"
+        ]
+      },
+      {
+        "name": "Add a repository collaborator",
+        "requiredParams": [
+          "owner",
+          "repo",
+          "username"
+        ],
+        "paramKeys": [
+          "owner",
+          "permission",
+          "repo",
+          "username"
+        ]
+      },
+      {
+        "name": "Add assignees to an issue",
+        "requiredParams": [
+          "owner",
+          "repo",
+          "issue_number"
+        ],
+        "paramKeys": [
+          "assignees",
+          "issue_number",
+          "owner",
+          "repo"
+        ]
+      }
+    ]
+  }
+]

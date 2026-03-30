@@ -1,0 +1,19 @@
+{
+  "name": "dep-graph",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/generate.ts",
+    "step1:dump-tools": "tsx src/step1_dump_tools.ts",
+    "step2:build-graph": "tsx src/step2_build_graph.ts",
+    "step3:visualize": "tsx src/step3_visualize.ts"
+  },
+  "dependencies": {
+    "@composio/core": "^0.6.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
+

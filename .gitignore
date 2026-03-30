@@ -1,0 +1,20 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build / OS
+dist/
+.DS_Store
+*.log
+*.pem
+
+# Session / IDE artifacts (may contain local state)
+agent-sessions/
+
+# Large generated dumps (regenerate with npm run generate)
+artifacts/*_raw_tools.json
+artifacts/*_normalized_tools.json
